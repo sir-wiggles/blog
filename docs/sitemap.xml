@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.org/test/</loc>
+    <loc>https://sir-wiggles.io/really-need-to-start-writing-this-stuff-down/test/</loc>
     <lastmod>2017-03-08T20:50:59-08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://sir-wiggles.io/really-need-to-start-writing-this-stuff-down/</loc>
     <lastmod>2017-03-08T20:50:59-08:00</lastmod>
     <priority>0</priority>
   </url>
