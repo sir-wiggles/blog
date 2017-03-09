@@ -1,24 +1,74 @@
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Jeff Gregory"
 baseURL = "https://sir-wiggles.github.io/blog/"
-theme = "strange-case"
 publishDir = "docs"
+theme = "hugo-theme-bootstrap4-blog"
 
+[permalinks]
+  post = "/:year/:month/:title/"
+  page = "/:slug/"
+
+[[menu.sidebar]]
+  name = "Link 1"
+  url = "https://example.com"
+
+[[menu.sidebar]]
+  name = "Link 2"
+  url = "https://example.org"
+
+# custom navbar menu entry.   See the custom_navbar parameter below for
+# details.
+
+#[[menu.navbar]]
+#  name = "Link 1"
+#  url = "https://example.org"
+
+
+# Theme variables
+#
 [params]
-    colorScheme = "scheme-darkbrown"
-    DateFormat = "2 Jan 2006"
-    description = "A blog about content"
-    sidebarDescription = "This is my blog about content"
-    sidebarFreeText = "A optional paragraph of free text. Set to blank in config.toml to clear..."
-    piwikSiteID = ""
-    piwikURL = ""
+  # Site author
+  author = "Jeff Gregory"
 
-[[menu.main]]
-    name = "Hugo"
-    post = "<span class='glyphicon glyphicon-fire'></span>"
-    url = "http://gohugo.io"
+  # Description/subtitle for homepage (can be Markdown)
+  description = "Scribblings of a tinkerer"
 
-[[menu.main]]
-    name = "Bootstrap"
-    post = "<span class='glyphicon glyphicon-ok'></span>"
-    url = "http://getbootstrap.com"
+  # Format dates with Go's time formatting
+  date_format = "Mon Jan 02, 2006"
+
+  # Optionally display a message about the site's use of cookies, which may be
+  # required for your site in the European Union. Set the parameter below to a
+  # page where the user can get more information about cookies, either on your
+  # site or externally, for example:
+  cookie_consent_info_url = "http://cookiesandyou.com"
+
+  # customise the contents of the navbar at the top of the page.  The default
+  # behaviour is to list all static pages not in the posts directory. When the
+  # parameter below is set to true you will have to manually add entries to the
+  # navbar, either by adding the following menu variable to the front matter of
+  # the relevant pages
+  #   menu = "navbar"
+  # or by specifying menu entries in a similar way to the sidebar menu above.
+  #custom_navbar = true
+
+  # show sharing icons on pages/posts (default: true)
+  #sharingicons = true
+
+  [params.sidebar]
+    # Optional about block for sidebar (can be Markdown)
+    about = "A simple Hugo theme based on the [Bootstrap v4 blog example](http://v4-alpha.getbootstrap.com/examples/blog/)."
+
+    # How many posts to show on the sidebar (Default: 5)
+    #num_recent_posts = 2
+
+  [params.social]
+    # Optional, used for attribution in Twitter cards (ideally not a person
+    # for example: nytimes, flickr, NatGeo, etc).
+    # See: https://dev.twitter.com/cards/types/summary-large-image
+    twitter = "username"
+
+# Default content language for Hugo 0.17's multilingual support (default is "en")
+# See: https://github.com/spf13/hugo/blob/master/docs/content/content/multilingual.md
+#DefaultContentLanguage = "en"
+
+

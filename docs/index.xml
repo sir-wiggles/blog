@@ -6,7 +6,17 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 08 Mar 2017 21:38:49 -0800</lastBuildDate>
     <atom:link href="https://sir-wiggles.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>test</title>
+      <link>https://sir-wiggles.github.io/blog/test/</link>
+      <pubDate>Wed, 08 Mar 2017 21:38:49 -0800</pubDate>
+      
+      <guid>https://sir-wiggles.github.io/blog/test/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
