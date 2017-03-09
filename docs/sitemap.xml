@@ -2,13 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://sir-wiggles.github.io/blog/test/</loc>
-    <lastmod>2017-03-08T21:38:49-08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://sir-wiggles.github.io/blog/</loc>
-    <lastmod>2017-03-08T21:38:49-08:00</lastmod>
     <priority>0</priority>
   </url>
   
