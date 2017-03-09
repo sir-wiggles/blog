@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "My New Hugo Site"
-baseURL = "https://sir-wiggles.io/blog/"
+baseURL = "https://sir-wiggles.github.io/blog/"
 theme = "strange-case"
 publishDir = "docs"
 
