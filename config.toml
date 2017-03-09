@@ -3,6 +3,10 @@ title = "Jeff Gregory"
 baseURL = "https://sir-wiggles.github.io/blog/"
 publishDir = "docs"
 theme = "hugo-theme-bootstrap4-blog"
+paginate = 5
+
+PygmentsCodeFences = true
+pygmentsStyle = "native"
 
 [permalinks]
   post = "/:year/:month/:title/"
