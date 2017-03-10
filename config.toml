@@ -6,7 +6,8 @@ theme = "hugo-theme-bootstrap4-blog"
 paginate = 5
 
 PygmentsCodeFences = true
-pygmentsStyle = "native"
+PygmentsStyle = "native"
+PygmentsOptions = "linenos=1"
 
 [permalinks]
   post = "/:year/:month/:title/"
