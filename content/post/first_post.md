@@ -7,3 +7,10 @@ tags = []
 draft = true
 +++
 
+
+{{< highlight go "linenos=1">}}
+import os
+import path
+
+print "hi"
+{{< /highlight >}}
